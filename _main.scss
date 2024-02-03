@@ -8,10 +8,6 @@
     padding-right: calc(50% - 600px);
 }
 
-.box {
-    height: 1024px;
-    background-image: url(img/Rectangle\ 1.jpg);
-}
 
 .h1 {
     font-family: Montserrat;
@@ -48,8 +44,11 @@
 }
 
 .top_content {
+    height: 1024px;
+    background-image: url(img/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 217px;
-    padding-left: 120px;
 }
 
 .button {
@@ -66,6 +65,9 @@
     line-height: 32px;
     border: none
 }
+.button:hover {
+    background: #EB443F;
+  }
 
 .game {
 
