@@ -46,6 +46,8 @@
 .top_content {
     height: 1024px;
     background-image: url(img/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 217px;
 }
 
@@ -63,6 +65,9 @@
     line-height: 32px;
     border: none
 }
+.button:hover {
+    background: #EB443F;
+  }
 
 .game {
 
