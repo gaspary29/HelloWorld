@@ -73,6 +73,16 @@
   background-image: url(img/Rectangle\ 5.jpg);
   height: 556px;
 }
+.game_timeyear {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 282px;
+  flex-wrap: wrap;
+}
+.game_foot {
+  width: 485px;
+  height: 333px;
+}
 .game_img {
   border-radius: 18px;
   width: 100%;
@@ -86,6 +96,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
+}
+.game_timeyear {
+  background-image: url(img/fon.jpg);
+  height: 800px;
 }
 
 #one {
@@ -112,7 +126,36 @@
   text-decoration: underline;
 }
 
-@media (max-width: 767px) {
+.h2 {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.p2 {
+  display: block;
+  width: 584px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  height: 64px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.timeyear {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media (max-width: 789px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
@@ -124,12 +167,22 @@
     height: 735px;
     padding-top: 238px;
   }
+  .game {
+    height: 1221px;
+  }
   .h1 {
     color: #FFF;
     text-align: center;
     font-size: 32px;
     width: 343px;
     height: 78px;
+    line-height: normal;
+  }
+  .h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    width: 343px;
     line-height: normal;
   }
   .h1p1 {
@@ -143,10 +196,36 @@
     color: #FFF;
     font-size: 14px;
   }
+  .p2 {
+    text-align: center;
+    font-size: 14px;
+    width: 343px;
+    color: rgb(255, 255, 255);
+  }
   .game {
     height: 1221px;
   }
+  .game_timeyear {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    height: 653px;
+    padding-top: 51px;
+  }
+  .game_foot {
+    width: 100%;
+    height: 100%;
+  }
   .game_box {
     justify-content: center;
+  }
+  .button {
+    margin-top: 32px;
+  }
+  .timeyear {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }/*# sourceMappingURL=style.css.map */

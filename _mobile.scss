@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 789px) {
     .center {
         padding-left: 16px;
         padding-right: 16px;
@@ -13,12 +13,24 @@
 
     }
 
+    .game {
+        height: 1221px;
+    }
+
     .h1 {
         color: #FFF;
         text-align: center;
         font-size: 32px;
         width: 343px;
         height: 78px;
+        line-height: normal;
+    }
+
+    .h2 {
+        color: #FFF;
+        text-align: center;
+        font-size: 32px;
+        width: 343px;
         line-height: normal;
     }
 
@@ -36,11 +48,39 @@
         font-size: 14px;
     }
 
+    .p2 {
+        text-align: center;
+        font-size: 14px;
+        width: 343px;
+        color: rgb(255, 255, 255);
+    }
+
     .game {
         height: 1221px;
+
+        &_timeyear {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 64px;
+            height: 653px;
+            padding-top: 51px;
+        }
+
+        &_foot {
+            width: 100%;
+            height: 100%;
+        }
 
         &_box {
             justify-content: center;
         }
+
     }
+    .button {
+        margin-top: 32px;
+    }
+    .timeyear {display: flex;
+            flex-direction: column;
+            align-items: center;}
 }
