@@ -76,7 +76,7 @@
 .game_timeyear {
   display: flex;
   justify-content: space-between;
-  padding-top: 282px;
+  align-content: center;
   flex-wrap: wrap;
 }
 .game_foot {
@@ -155,6 +155,17 @@
   gap: 32px;
 }
 
+@media (max-width: 1069px) {
+  .game_timeyear {
+    gap: 64px;
+    justify-content: center;
+  }
+}
+@media (max-width: 1200px) {
+  .game {
+    height: 900px;
+  }
+}
 @media (max-width: 789px) {
   .center {
     padding-left: 16px;
@@ -206,16 +217,12 @@
     height: 1221px;
   }
   .game_timeyear {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 64px;
     height: 653px;
-    padding-top: 51px;
   }
   .game_foot {
     width: 100%;
-    height: 100%;
+    height: 375px;
   }
   .game_box {
     justify-content: center;

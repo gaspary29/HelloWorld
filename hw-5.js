@@ -1,5 +1,7 @@
+
+// задание 1
 function number(a, b) {
-    if (a => b) {
+    if (a > b) {
         return b
     } else { return a }
 
