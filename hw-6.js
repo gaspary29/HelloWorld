@@ -121,7 +121,7 @@ console.log(getNumber);
 // Задание 14
 let max = 11
 const generatedNumber = Array.from({ length: 10 }, ()=> Math.floor(Math.random() * 11)); 
-// с помощью array.form создаем "настоящий" массив, задаем, что в нем 10 Элементов, а то, какое число будет
+// с помощью array.from создаем "настоящий" массив, задаем, что в нем 10 Элементов, а то, какое число будет
 //в элементе, ограничиваем  11 ( от 0 до 10)
 
 console.log(generatedNumber);

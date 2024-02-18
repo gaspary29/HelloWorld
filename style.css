@@ -155,10 +155,28 @@
   gap: 32px;
 }
 
+.guess_game {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.guess_gametop {
+  display: none;
+}
+
 @media (max-width: 1069px) {
   .game_timeyear {
     gap: 64px;
     justify-content: center;
+  }
+  .guess_game {
+    display: none;
+  }
+  .guess_gametop {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
   }
 }
 @media (max-width: 1200px) {
@@ -166,7 +184,7 @@
     height: 900px;
   }
 }
-@media (max-width: 789px) {
+@media (max-width: 767px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
@@ -222,7 +240,7 @@
   }
   .game_foot {
     width: 100%;
-    height: 375px;
+    height: 230px;
   }
   .game_box {
     justify-content: center;
@@ -234,5 +252,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .guess_gametop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .guess_game {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1,12 +1,24 @@
 @media(max-width: 1069px) {
-    .game_timeyear{gap: 64px; justify-content: center;}
+    .game_timeyear {
+        gap: 64px;
+        justify-content: center;
     }
+    .guess_game {
+        display: none;
+    }
+    .guess_gametop { display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+}
+
 @media(max-width: 1200px) {
     .game {
         height: 900px;
-    }}
+    }
+}
 
-@media(max-width: 789px) {
+@media(max-width: 767px) {
     .center {
         padding-left: 16px;
         padding-right: 16px;
@@ -73,7 +85,7 @@
 
         &_foot {
             width: 100%;
-            height: 375px;
+            height: 230px;
         }
 
         &_box {
@@ -81,10 +93,21 @@
         }
 
     }
+
     .button {
         margin-top: 32px;
     }
-    .timeyear {display: flex;
-            flex-direction: column;
-            align-items: center;}
+
+    .timeyear {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .guess_gametop {         display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .guess_game {
+        display: none;
+    }
 }
